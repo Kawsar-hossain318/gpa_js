@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>result</title>
+
+
+    <style>
+        html 
+        {
+        margin: 0 auto;
+        width: 99%;
+        text-align: center;
+        padding-top: 100px;
+        color: crimson;
+        }
+    </style>
+
+</head>
+<body>
+
+
+    <h2 class="txt">Your Result is here !</h2>
+
+
+
+    <script>
+
+        var numb = parseFloat(prompt("Enter Your Marks Here :"));
+
+        if(numb > 100 && numb <0 ){
+            document.write("Invalid Marks ! try valid marks");
+        }
+
+        else if(numb >= 80 && numb <= 100){
+            document.write("You Got A+ !");
+        }
+
+        else if(numb >= 70 && numb <= 79){
+            document.write("You Got A !");
+        }
+
+        else if(numb >= 60 && numb <= 69){
+            document.write("You Got A- !");
+        }
+
+        else if(numb >= 50 && numb <= 59){
+            document.write("You Got B !");
+        }
+
+        else if(numb >= 40 && numb <= 49){
+            document.write("You Got C !");
+        }
+
+        else if(numb >= 33 && numb <= 40){
+            document.write("You Got D !");
+        }
+
+        else{
+            document.write("Opps ! better luck next time ");
+        }
+
+        x.classList.add("st");
+    </script>
+    
+</body>
+</html>
